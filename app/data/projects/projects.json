@@ -1,26 +1,26 @@
 [
   { "company" : {
-      "name" : "",
+      "name" : "Lit Motors",
       "hide_name": false,
-      "baseline" : "Water doping for cars",
+      "baseline" : "100% Electric motor viecle",
       "url" : null,
-      "location" : "OpenSource Innovation"
+      "location" : "Green Tech Innovation"
     },
     "project_detail" : {
-      "title" : "Help an America’s Cup Supplier of Connected Objects to Reach More Profitable Industrial Markets",
-      "description" : "The technology of water doping applies to any engine, and is largely unknown. The engine exhaust heat is used in a chamber to get a hot / cold self generating plasma",
+      "title" : "Lit Motors",
+      "description" : "The C-1 is 100% electric, with a top speed of 100+ mph and a range of up to 200 miles per charge. Charge times depend on voltage, from six hours on 110/120V to four hours...",
       "key_metrics" :[
         {
           "label":"2012 REVENUES",
           "data":"3 M$"
         },
         {
-          "label":"KEY ASSET",
-          "data":"Multi-Use Device"
+          "label":"Location",
+          "data":"San Francisco, USA"
         },
         {
-          "label":"TOP CLIENT",
-          "data":"America's CUP"
+          "label":"Industry",
+          "data":"Auto-moto"
         }
       ],
       "imageName": "litmotors"
@@ -57,25 +57,26 @@
       "hide_name": false,
       "baseline" : "Crowdsourcing ad videos",
       "url" : null,
-      "location" : "OpenSource Innovation"
+      "location" : "Social Crowdfunding"
     },
     "project_detail" : {
-      "title" : "Help an America’s Cup Supplier of Connected Objects to Reach More Profitable Industrial Markets",
-      "description" : "The technology of water doping applies to any engine, and is largely unknown. The engine exhaust heat is used in a chamber to get a hot / cold self generating plasma",
+      "title" : "",
+      "description" : "eYeka is the global market leader in online co-creation. We enable marketers who have no time to fail to accelerate the creation and marketing of more relevant products by leveraging a wealth...",
       "key_metrics" :[
         {
           "label":"2012 REVENUES",
-          "data":"3 M$"
+          "data":"5 M$"
         },
         {
-          "label":"KEY ASSET",
-          "data":"Multi-Use Device"
+          "label":"Location",
+          "data":"Paris, France"
         },
         {
-          "label":"TOP CLIENT",
-          "data":"America's CUP"
+          "label":"Industry",
+          "data":"Social"
         }
-      ]
+      ],
+        "imageName": "eyeka"
     },
     "challenge" : {
       "title":"How can you contribute to the development of this technology at your local level ?",
@@ -107,6 +108,129 @@
     "meta":{
       "contributions":26,
       "total_reward":"$ 2600"
+    },
+    "id": 2
+    },
+
+    { "company" : {
+        "name" : "",
+        "hide_name": false,
+        "baseline" : "Watter dropping technology for cars",
+        "url" : null,
+        "location" : "OpenSource Innovation"
+    },
+        "project_detail" : {
+            "title" : "",
+            "description" : "The technology of water doping applies to any engine, and is largely unknown. The engine exhaust heat is used in a chamber to get a hot / cold self generating plasma",
+            "key_metrics" :[
+                {
+                    "label":"2012 REVENUES",
+                    "data":"0 M$"
+                },
+                {
+                    "label":"Location",
+                    "data":"London, UK"
+                },
+                {
+                    "label":"Industry",
+                    "data":"Auto-moto"
+                }
+            ],
+            "imageName": "dropping"
+        },
+        "challenge" : {
+            "title":"How can you contribute to the development of this technology at your local level ?",
+            "tasks": [
+                {
+                    "icon":"icon-share",
+                    "text":"Share a contact that could be usefull",
+                    "reward":"$ 400",
+                    "reward_intro":"Win",
+                    "reward_type":"money_reward"
+                },
+                {
+                    "icon":"icon-pencil",
+                    "text":"Suggest new development ideas",
+                    "reward":"$ 1000",
+                    "reward_intro":"Win",
+                    "reward_type":"money_reward"
+                },
+                {
+                    "icon":"icon-user",
+                    "text":"Apply to open a local branch",
+                    "reward":"Website + Mentorship",
+                    "reward_intro":"",
+                    "reward_type":"fork_reward"
+                }
+
+            ]
+        },
+        "meta":{
+            "contributions":26,
+            "total_reward":"$ 2600"
+        },
+        "id": 3
+
+  },
+
+    { "company" : {
+        "name" : "Tradeshift",
+        "hide_name": false,
+        "baseline" : "Cloud Scan",
+        "url" : null,
+        "location" : "OpenSource Innovation"
+    },
+        "project_detail" : {
+            "title" : "",
+            "description" : "Tradeshift is a web platform for all business interactions. Colud Scan Eliminate the need for manual input of invoices received via email, PDF or paper. Allows to receive 100% electronic invoice today!",
+            "key_metrics" :[
+                {
+                    "label":"Investments",
+                    "data":"26 M$"
+                },
+                {
+                    "label":"Location",
+                    "data":"San Francisco, USA"
+                },
+                {
+                    "label":"Industry",
+                    "data":"Finance"
+                }
+            ],
+            "imageName": "tradeshift"
+        },
+        "challenge" : {
+            "title":"How can you contribute to the development of this technology at your local level ?",
+            "tasks": [
+                {
+                    "icon":"icon-share",
+                    "text":"Share a contact that could be usefull",
+                    "reward":"$ 400",
+                    "reward_intro":"Win",
+                    "reward_type":"money_reward"
+                },
+                {
+                    "icon":"icon-pencil",
+                    "text":"Suggest new development ideas",
+                    "reward":"$ 1000",
+                    "reward_intro":"Win",
+                    "reward_type":"money_reward"
+                },
+                {
+                    "icon":"icon-user",
+                    "text":"Apply to open a local branch",
+                    "reward":"Website + Mentorship",
+                    "reward_intro":"",
+                    "reward_type":"fork_reward"
+                }
+
+            ]
+        },
+        "meta":{
+            "contributions":26,
+            "total_reward":"$ 2600"
+        },
+        "id": 4
+
     }
-  }
 ]
