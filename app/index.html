@@ -1,41 +1,54 @@
 <!doctype html>
-<html lang="en" ng-app="myApp">
+<html ng-app="edgeBudApp">
 <head>
-  <meta charset="utf-8">
-  <title>LiveStormer</title>
-  <link rel="stylesheet" href="css/app.css"/>
-  <link rel="stylesheet" href="css/bootstrap.min.css"/>
-  <link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
+	<title>LiveStormer</title>
 
+	<meta charset="utf-8">
+	<meta http-equiv="Cache-Control" content="no-store"/>
+	<meta http-equiv="Pragma" content="no-cache"/>
+	<meta http-equiv="Expires" content="-1"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet/less" type="text/css" href="css/header.less">
-    <link rel="stylesheet/less" type="text/css" href="css/utils.less">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
 
-
+	<link rel="stylesheet/less" type="text/css" href="css/utils.less">
+	<link rel="stylesheet/less" type="text/css" href="css/header.less">
+	<link rel="stylesheet/less" type="text/css" href="css/top-banner.less">
+	<link rel="stylesheet/less" type="text/css" href="css/projects.less">
+	<link rel="stylesheet/less" type="text/css" href="css/project-card.less">
+	<link rel="stylesheet/less" type="text/css" href="css/login.less">
 </head>
 <body>
-    <section class="header">
-        <img class="logo" alt="Company name" src="img/20130417_logo.png">
-
+	<header ng-include src="'/app/views/header.html'"></header>
+	<section class="top_banners" ng-include = "'/app/views/top-banner.html'"></section>
+	<section class="container eb_container">
+    	<div class="row">
+    		<section class="span1">
+    			<!--Left Sidebar content-->
+    		</section>
+    		<section ng-view class="span10">
+				<!-- Body content -->
+    		</section>
+    		<section class="span1">
+    			<!--Right Sidebar content-->
+    		</section>
+    	</div>
     </section>
-
-  <div ng-view>
-      <!-- Changable views -->
-  </div>
-
-  <div>Angular seed app: v<span app-version></span></div>
-
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
-  -->
-  <script src="lib/angular/angular.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/services.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/directives.js"></script>
-  <script src="lib/json2.min.js"></script>
-  <script src="lib/less.min.js"></script>
-  <script src=""></script>
 </body>
+	<script type="text/javascript" src="lib/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/json2.js"></script>
+	<script type="text/javascript" src="lib/pretty.js"></script>
+	<script type="text/javascript" src="lib/angular.min.js"></script>
+	<script type="text/javascript" src="lib/angular-resource.js"></script>
+	<script type="text/javascript" src="lib/angular-cookies.js"></script>
+	<script type="text/javascript" src="lib/bootstrap.js"></script>
+	<script type="text/javascript" src="lib/less.min.js"></script>
+	
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/eb-project-module.js"></script>
+	<script type="text/javascript" src="js/eb-companies-module.js"></script>
+	<script type="text/javascript" src="js/eb-user-module.js"></script>
+	<script type="text/javascript" src="js/controllers.js"></script>
+	<script type="text/javascript" src="js/filters.js"></script>
 </html>

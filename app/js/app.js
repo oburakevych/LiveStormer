@@ -1,10 +1,33 @@
 'use strict';
 
+/* EdgeBud App Module */
 
-// Declare app level module which depends on filters, and services
-angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.directives', 'myApp.controllers']).
-  config(['$routeProvider', function($routeProvider) {
-    $routeProvider.when('/home', {templateUrl: 'partials/home.html', controller: 'HomeCtrl'});
-    $routeProvider.when('/project', {templateUrl: 'partials/project.html', controller: 'ProjectCtrl'});
-    $routeProvider.otherwise({redirectTo: '/view1'});
-  }]);
+var edgeBudModule = angular.module('edgeBudApp', 
+		['ebProjectModule', 
+		 'ebCompaniesModule', 
+		 'filterModule', 
+		 'ebUserModule']
+);
+
+edgeBudModule.BASE_URL = 'data';
+edgeBudModule.BASE_URL_BACKEND = 'http://localhost\:8680/edgebud-backend';
+
+edgeBudModule.config(['$routeProvider', function($routeProvider) {
+	  $routeProvider.
+	  	  when('/projects', {templateUrl: 'views/projects.html'}).
+	  	  when('/projects/new', {templateUrl: 'views/add-project.html', controller: "ProjectController"}).
+	  	  when('/projects/:id', {templateUrl: 'views/project-details.html', controller: "ProjectDetailsController"}).
+	      otherwise({redirectTo: '/projects'});
+	}]);
+
+window.blabla = function() {
+	$(".challenge_inline[data-title]").each(function(i, elem) {
+		var text = "";
+		var timer = setInterval(function() {
+		  text = $(elem).attr("data-title").substr(0,text.length+1);
+		  $(elem).html(text);
+		  if(text.length === $(elem).attr("data-title").length)
+		    clearInterval(timer);
+		}, 50);
+	});
+};

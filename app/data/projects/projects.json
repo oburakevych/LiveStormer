@@ -1,0 +1,112 @@
+[
+  { "company" : {
+      "name" : "",
+      "hide_name": false,
+      "baseline" : "Water doping for cars",
+      "url" : null,
+      "location" : "OpenSource Innovation"
+    },
+    "project_detail" : {
+      "title" : "Help an America’s Cup Supplier of Connected Objects to Reach More Profitable Industrial Markets",
+      "description" : "The technology of water doping applies to any engine, and is largely unknown. The engine exhaust heat is used in a chamber to get a hot / cold self generating plasma",
+      "key_metrics" :[
+        {
+          "label":"2012 REVENUES",
+          "data":"3 M$"
+        },
+        {
+          "label":"KEY ASSET",
+          "data":"Multi-Use Device"
+        },
+        {
+          "label":"TOP CLIENT",
+          "data":"America's CUP"
+        }
+      ],
+      "imageName": "litmotors"
+    },
+    "challenge" : {
+      "title":"How can you contribute to the development of this technology at your local level ?",
+      "tasks": [
+        {
+          "icon":"icon-share",
+          "text":"Share a contact that could be usefull",
+          "reward":"$400",
+          "reward_intro":"Win",
+          "reward_type":"money_reward",
+          "text_detail":"Potential partner, customer, competitor, ...",
+          "reward_detail":"1st price"
+        },
+        {
+          "icon":"icon-user",
+          "text":"Apply to open a local branch",
+          "reward":"Open innovation",
+          "reward_intro":"",
+          "reward_type":"fork_reward"
+        }
+      ]
+    },
+    "meta":{
+      "contributions":26,
+      "total_reward":"$ 2600"
+    },
+    "id": 1
+  },
+  { "company" : {
+      "name" : "Eyeka",
+      "hide_name": false,
+      "baseline" : "Crowdsourcing ad videos",
+      "url" : null,
+      "location" : "OpenSource Innovation"
+    },
+    "project_detail" : {
+      "title" : "Help an America’s Cup Supplier of Connected Objects to Reach More Profitable Industrial Markets",
+      "description" : "The technology of water doping applies to any engine, and is largely unknown. The engine exhaust heat is used in a chamber to get a hot / cold self generating plasma",
+      "key_metrics" :[
+        {
+          "label":"2012 REVENUES",
+          "data":"3 M$"
+        },
+        {
+          "label":"KEY ASSET",
+          "data":"Multi-Use Device"
+        },
+        {
+          "label":"TOP CLIENT",
+          "data":"America's CUP"
+        }
+      ]
+    },
+    "challenge" : {
+      "title":"How can you contribute to the development of this technology at your local level ?",
+      "tasks": [
+        {
+          "icon":"icon-share",
+          "text":"Share a contact that could be usefull",
+          "reward":"$ 400",
+          "reward_intro":"Win",
+          "reward_type":"money_reward"
+        },
+        {
+          "icon":"icon-pencil",
+          "text":"Suggest new development ideas",
+          "reward":"$ 1000",
+          "reward_intro":"Win",
+          "reward_type":"money_reward"
+        },
+        {
+          "icon":"icon-user",
+          "text":"Apply to open a local branch",
+          "reward":"Website + Mentorship",
+          "reward_intro":"",
+          "reward_type":"fork_reward"
+        }
+
+      ]
+    },
+    "meta":{
+      "contributions":26,
+      "total_reward":"$ 2600"
+    }
+  }
+]
